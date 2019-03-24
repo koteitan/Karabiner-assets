@@ -1,4 +1,4 @@
-# Karabviner-assets
+# Karabiner-assets
 Mac用のキーバインド設定のassetです。下記の設定ができます。
 
 ## 内容
