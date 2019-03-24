@@ -1,0 +1,23 @@
+{
+  "title": "koteitan",
+  "rules": [
+    {
+      "description": "from shift-space into toggle input source",
+      "manipulators": [
+        {
+          "type"       : "basic",
+          "description": "from shift-space into toggle input source",
+          "from"       : {
+            "key_code": "spacebar",
+            "modifiers"  : { "mandatory":["left_shift"] }
+          },
+          "to"         : [ {
+            "key_code": "spacebar",
+            "modifiers": ["control"]
+          } ]
+        }
+      ]
+    }
+  ]
+}
+
